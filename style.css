@@ -21,3 +21,40 @@ body{
     height: 300px;
     width: 100%;
 }
+
+.testa{
+    height: 100px;
+    width: 100%;
+    background-color: lightblue;
+    
+}
+
+.corpo::after{
+    content: "";
+    display: table;
+    clear: both; 
+}
+
+.sinistra{
+    float: left;
+    width: 24%;
+    height: 300px;
+    background-color: lightblue;
+    margin-top: 1%;
+}
+
+.centro{
+    background-color: lightblue;
+    width: 50%;
+    height: 300px;
+    display: inline-block;
+    margin: 1%;
+}
+
+.destra{
+    float: right;
+    width: 24%;
+    height: 300px;
+    background-color: lightblue;
+    margin-top: 1%;
+}
