@@ -58,3 +58,9 @@ body{
     background-color: lightblue;
     margin-top: 1%;
 }
+
+.piede{
+    height: 50px;
+    width: 100%;
+    background-color: darkviolet;
+}
