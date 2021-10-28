@@ -5,11 +5,19 @@
 }
 
 body{
-    margin: 2% 10%;
+    margin: 0% 10%;
 }
 
 .titolo{
     height: 100px;
     width: 100%;
     background-color: violet;
+    margin: 2% 0;
+}
+
+.container-1{
+    margin: 2% 0;
+    background-color: khaki;
+    height: 300px;
+    width: 100%;
 }
