@@ -4,15 +4,20 @@
     box-sizing: border-box;
 }
 
-body{
-    margin: 0% 10%;
+.container{
+    margin: 2% 10%;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both; 
 }
 
 .titolo{
     height: 100px;
     width: 100%;
     background-color: violet;
-    margin: 2% 0;
 }
 
 .container-1{
@@ -31,36 +36,27 @@ body{
 
 .corpo{
     background-color: dodgerblue;
-    margin-bottom: 2%;
 }
 
-.corpo::after{
-    content: "";
-    display: table;
-    clear: both; 
+.col{
+    height: 300px;
+    float: left;
+    background-color: lightblue;
 }
 
 .sinistra{
-    float: left;
     width: 24%;
-    height: 300px;
-    background-color: lightblue;
     margin: 1% 0;
+
 }
 
 .centro{
-    background-color: lightblue;
     width: 50%;
-    height: 300px;
-    display: inline-block;
-    margin: 1%;
+    margin: 1% 1%;
 }
 
 .destra{
-    float: right;
     width: 24%;
-    height: 300px;
-    background-color: lightblue;
     margin: 1% 0;
 }
 
@@ -68,5 +64,5 @@ body{
     height: 50px;
     width: 100%;
     background-color: darkviolet;
-    margin-bottom: 2%;
+    margin-top: 2%;
 }
